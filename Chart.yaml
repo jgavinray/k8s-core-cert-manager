@@ -1,0 +1,11 @@
+apiVersion: v2
+name: cert-manager
+description: A Helm chart for Deploying My cert manager
+type: application
+version: 0.0.1
+sources:
+  - https://github.com/jgavinray/k8s-core-cert-manager
+dependencies:
+  - name: cert-manager
+    repository: https://charts.jetstack.io
+    version: 1.4.1
